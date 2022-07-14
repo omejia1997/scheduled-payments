@@ -1,4 +1,4 @@
-package com.banquito.core.schedulepayment.task;
+package com.banquito.schedulepayment.task;
 
 import org.springframework.batch.core.ExitStatus;
 import org.springframework.batch.core.StepContribution;
@@ -8,9 +8,9 @@ import org.springframework.batch.core.scope.context.ChunkContext;
 import org.springframework.batch.core.step.tasklet.Tasklet;
 import org.springframework.batch.repeat.RepeatStatus;
 
-public class LinesWriter implements Tasklet, StepExecutionListener{
+public class LinesProcessor implements Tasklet, StepExecutionListener{
 
-    @Override
+     @Override
     public void beforeStep(StepExecution stepExecution) {
         // TODO Auto-generated method stub
     }
@@ -26,4 +26,5 @@ public class LinesWriter implements Tasklet, StepExecutionListener{
         // TODO Auto-generated method stub
         return null;
     }
+    
 }

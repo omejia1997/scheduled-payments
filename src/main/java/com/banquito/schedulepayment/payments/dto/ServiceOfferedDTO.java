@@ -1,4 +1,4 @@
-package com.banquito.core.schedulepayment.payments.dto;
+package com.banquito.schedulepayment.payments.dto;
 
 import java.math.BigDecimal;
 import java.util.Date;

@@ -1,4 +1,4 @@
-package com.banquito.core.schedulepayment.task;
+package com.banquito.schedulepayment.task;
 
 import org.springframework.batch.core.Job;
 import org.springframework.batch.core.JobParameters;

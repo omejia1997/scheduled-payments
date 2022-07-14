@@ -1,4 +1,4 @@
-package com.banquito.core.schedulepayment.config;
+package com.banquito.schedulepayment.config;
 
 import org.springframework.batch.core.Job;
 import org.springframework.batch.core.Step;
@@ -9,9 +9,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import com.banquito.core.schedulepayment.task.LinesProcessor;
-import com.banquito.core.schedulepayment.task.LinesReader;
-import com.banquito.core.schedulepayment.task.LinesWriter;
+import com.banquito.schedulepayment.task.LinesProcessor;
+import com.banquito.schedulepayment.task.LinesReader;
+import com.banquito.schedulepayment.task.LinesWriter;
 
 @Configuration
 @EnableBatchProcessing
